@@ -7,6 +7,13 @@ h1{
   text-align: center;
 } 
 
+body{
+  max-width: 95%;
+  margin: 0 !important;
+  float: none !important;
+}
+
+
 p{
   text-align: justify;
   text-justify: inter-word;

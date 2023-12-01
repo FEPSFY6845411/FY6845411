@@ -1,5 +1,6 @@
 html{
   font-family: Verdana, sans-serif;
+  scroll-behavior:smooth;
 }
 
 h1{

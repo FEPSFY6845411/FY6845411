@@ -91,6 +91,100 @@
       <p>Ultimately, when it is estimated that only one to three magnitude 9 earthquakes occur every century <a href="#Reference 6">(McCaffrey, 2008)</a>, it seems counterproductive to invest in such excessive mitigation strategies. What can instead be highlighted are improvements to countermeasures designed for smaller magnitude earthquakes that happen more commonly in Japan.</p>
     </div>
 
+    <div>
+      <h2> Conference Presentation: What caused structural damage during the 2011 Tohoku earthquake and to what extent did preventative measures mitigate them?</h2>
+      <script>
+        // Array of slide image URL
+        var slideImages = ["slide1.jpeg", "slide2.jpeg", "slide3.jpeg", "slide4.jpeg", "slide5.jpeg"];
+        var currentSlide =0;
+
+        function showSlide() {
+          document.getElementById('slide').src = slideImages[currentSlide];
+        }
+
+        function nextSlide() {
+          currentSlide = (currentSlide + 1) % slideImages.length;
+          showSlide();
+        }
+
+        function prevSlide() {
+          currentSlide = (currentSlide - 1 + slideImages.length) % slideImages.length;
+          showSlide();
+        }
+
+        // Function to show a specific slide based on the button clicked
+        function showSlideNumber(slideNumber) {
+          currentSlide = slideNumber - 1;
+          showSlide();
+        }
+
+        // Call showSlide() to display the first slide
+        showSlide();
+       
+      </script>
+  
+    </div>
+    
+    <div id="slide-container">
+      <img id="Slide" src="slide1.jpeg" alt="Slide 1" style="width:100%; max-width:800px;">
+      
+      <!-- Previous and Next buttons container -->
+      <div class="button-container">
+        <button class="button" onclick="prevslide()">Previous</button>
+        <button class="button" onclick="nextslide()">Next</button>
+      </div>
+
+      <!-- Slide number buttons container -->
+      <div class="slide-number-container">
+        <button class="button" onclick="showSlideNumber(1)">1</button>
+        <button class="button" onclick="showSlideNumber(2)">2</button>
+        <button class="button" onclick="showSlideNumber(3)">3</button>
+        <button class="button" onclick="showSlideNumber(4)">4</button>
+        <button class="button" onclick="showSlideNumber(5)">5</button>
+      </div>
+    </div>
+
+    <style>
+      /* Style to center the image */
+      #slide-container {
+        text-align: center;
+        position: relative;
+      }
+
+      /* Style for the buttons */
+      .button-container {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-botton: -100px; /* Add some margin between the image and buttons */
+      }
+
+      .button {
+        padding: 10px 20px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        margin: 05px; /* Add some margin between the buttons */
+      }
+
+        .slide-number-container {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-bottom: -50px; /* Add some margin between the slide number buttons and the image */
+      }
+
+    </style>
+
+    
+
+
+    
     <div id="References">
       <h2>References</h2>
       <ol>

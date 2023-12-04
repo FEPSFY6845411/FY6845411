@@ -30,8 +30,8 @@ p{
   height: auto;
 }
 
-buttonDiv{
-  padding-top: 2erem;
+.buttonDiv{
+  padding-top: 5rem;
   padding-bottom: 5rem;
 
 }

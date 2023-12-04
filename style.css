@@ -69,3 +69,7 @@ p{
   cursor: pointer;
   margin: 05px; /* Add some margin between the buttons */
 }
+
+.references{
+  padding-top:5rem;
+}

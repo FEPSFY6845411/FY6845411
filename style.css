@@ -46,12 +46,12 @@ p{
   margin-botton: -50px; /* Add some margin between the image and buttons */
 }
 
-#slide-container {
+#slide-container{
   text-align: center;
   position: relative;
 }
 /* Style for the buttons */
-.button-container {
+.button-container{
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -59,7 +59,7 @@ p{
   margin-botton: -50px; /* Add some margin between the image and buttons */
 }
 
-.button {
+.button{
   padding: 10px 20px;
   background-color: #4CAF50;
   color: white;

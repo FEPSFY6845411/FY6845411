@@ -33,8 +33,9 @@ p{
 .buttonDiv{
   position: absolute;
   bottom: 0;
-  padding-bottom: -50px;
-
+  left: 50%;
+  transform: translateX(-50%);
+  margin-botton: -50px; /* Add some margin between the image and buttons */
 }
 
 #slide-container {

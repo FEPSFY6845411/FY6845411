@@ -31,6 +31,8 @@ p{
 }
 
 .buttonDiv{
+  position: absolute;
+  bottom: 0;
   padding-bottom: -50px;
 
 }

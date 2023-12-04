@@ -25,6 +25,11 @@ p{
   margin-right: auto;
 }
 
+.f2 > img{
+  width: 50%;
+  height: auto;
+}
+
 buttonDiv{
   padding-top: 2erem;
   padding-bottom: 5rem;
